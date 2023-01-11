@@ -140,6 +140,10 @@ main {
       line-height: 24px;
       margin: 1rem 0rem 0rem 0rem;
       padding: 1rem 0rem 1rem 0rem;
+      @media (max-width: 450px) {
+        img {
+          display: none;
+        }
       img:nth-child(1) {
         margin: 0rem 0rem 0rem 0rem;
         padding: 0rem 0rem 0rem 0rem;
@@ -204,4 +208,5 @@ main {
       height: fit-content;
     }
   }
+}
 }
